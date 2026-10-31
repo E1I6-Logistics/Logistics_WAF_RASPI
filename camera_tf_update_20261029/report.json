@@ -1,0 +1,9 @@
+{
+  "target": "/home/waffle/turtlebot3_ws/src/turtlebot3/turtlebot3_description/urdf/turtlebot3_waffle.urdf",
+  "reference": "/home/waffle/turtlebot3_ws/src/turtlebot3/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf",
+  "before_sha256": "53e1d4cfff90dfca961c6f9aef4d1d5fdfe9e8204cdc7ddef93a86c53c89f432",
+  "after_sha256": "09460431019b76d320ad416635bfbd385d91b63abb8765049d8383b41b9d8254",
+  "non_camera_elements_unchanged": true,
+  "camera_matches_waffle_pi": true,
+  "applied": true
+}
