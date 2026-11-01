@@ -10,7 +10,7 @@ class LinearMotorNode(Node):
     def __init__(self):
         super().__init__('linear_motor_node')
         # ENA가 5V 상시 연결이므로 pwm=False로 불필요한 소프트웨어 PWM 스레드 방지
-        self.motor = Motor(forward=14, backward=15, pwm=False)
+        self.motor = Motor(forward=15, backward=14, pwm=False)
         self.actions = {
             'UP': self.motor.forward,
             'DOWN': self.motor.backward,

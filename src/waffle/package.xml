@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>waffle</name>
+  <version>0.0.1</version>
+  <description>Bringup and integration launch package for Waffle robot</description>
+  <maintainer email="dl1wjd2@gmail.com">waffle</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>turtlebot3_bringup</exec_depend>
+  <exec_depend>Linear_motor_ctrl</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
